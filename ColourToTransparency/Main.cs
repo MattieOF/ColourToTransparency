@@ -117,6 +117,7 @@ namespace ColourToTransparency
         private void ClearImagesButton_Click(object sender, EventArgs e)
         {
             ClearPaths();
+            SamplePictureBox.Image = null;
         }
 
         public bool CheckInputsAreValid()
